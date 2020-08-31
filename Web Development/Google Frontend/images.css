@@ -1,0 +1,30 @@
+form input[type=text], form input[type=text]:hover {
+  margin-left: 300px;
+  height: 40px;
+  width: 605px;
+  border-radius: 20px 20px 20px 20px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif; }
+
+div > pre {
+  text-align: right;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+#Google {
+  width: 300px;
+  margin-left: 450px;
+  margin-top: 90px; }
+
+form input[type=text] {
+  border: 2px solid #9b8d8d; }
+form input[type=text]:hover {
+  border: 2px solid black; }
+form button {
+  margin-left: 515px;
+  width: 175px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; }
+
+/*# sourceMappingURL=images.css.map */

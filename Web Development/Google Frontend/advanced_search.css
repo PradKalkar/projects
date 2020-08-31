@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+#backg {
+  height: 70px;
+  width: 100%;
+  background-color: #f1f1f1; }
+
+#intro #one {
+  text-align: right;
+  margin-right: 20px; }
+  #intro #one pre {
+    font-family: Arial, Helvetica, sans-serif; }
+#intro #two {
+  color: crimson;
+  font-size: 30px; }
+
+#second {
+  padding: 35px;
+  font-size: 25px; }
+  #second pre {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif; }
+    #second pre input {
+      border: 1px solid #d9d9d9;
+      width: 600px;
+      height: 22px;
+      margin-right: 200px;
+      padding-top: 1px;
+      padding-right: 8px;
+      padding-bottom: 1px;
+      padding-left: 8px; }
+  #second button {
+    margin-left: 734px;
+    height: 30px;
+    background-color: #4787ed;
+    color: white;
+    border: 1px solid #3079ed; }
+
+/*# sourceMappingURL=advanced_search.css.map */
