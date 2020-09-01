@@ -1,6 +1,8 @@
 %common1
 {
-    margin-left: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 40px;
     width: 605px;
     border-radius: 20px 20px 20px 20px;
@@ -19,8 +21,10 @@ div{
 #Google
 {
     width: 300px;
-    margin-left: 450px;
-    margin-top: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 }
 
 form{
@@ -33,12 +37,18 @@ form{
         @extend %common1;          
         border: 2px solid black;
     }
+    input[type =text]:focus
+    {        
+        outline: none;
+    }
     button
     {
-        margin-left: 515px;
-        width: 175px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 180px;
         height: 40px;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
+        font-size: large;
     }
 }
