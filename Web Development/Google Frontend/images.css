@@ -1,5 +1,7 @@
 form input[type=text], form input[type=text]:hover {
-  margin-left: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   height: 40px;
   width: 605px;
   border-radius: 20px 20px 20px 20px;
@@ -13,18 +15,24 @@ div > pre {
 
 #Google {
   width: 300px;
-  margin-left: 450px;
-  margin-top: 90px; }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px; }
 
 form input[type=text] {
   border: 2px solid #9b8d8d; }
 form input[type=text]:hover {
   border: 2px solid black; }
+form input[type=text]:focus {
+  outline: none; }
 form button {
-  margin-left: 515px;
-  width: 175px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
   height: 40px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px; }
+  font-size: large; }
 
 /*# sourceMappingURL=images.css.map */
