@@ -1,6 +1,8 @@
 %common1
 {
-    margin-left: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 40px;
     width: 605px;
     border-radius: 20px 20px 20px 20px;
@@ -18,8 +20,10 @@ div{
 #Google
 {
     width: 300px;
-    margin-left: 450px;
-    margin-top: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 }
 
 form{
@@ -27,19 +31,33 @@ form{
         @extend %common1;
         border: 2px solid rgb(155, 141, 141);
     }
-    input[type =text]:hover
+    input[type=text]:hover
     {
         @extend %common1;          
         border: 2px solid black;
     }
-    pre{
-        margin-left: 400px;
+    input[type=text]:focus
+    {        
+        outline: none;
+    }
+    #box
+    {
+        width: 300px;
         button
         {
-            width: 175px;
+            width: auto;
             height: 40px;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
+            font-size: medium;
         }
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
+}
+
+body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
