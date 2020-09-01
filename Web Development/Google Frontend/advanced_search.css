@@ -36,5 +36,11 @@ body {
     background-color: #4787ed;
     color: white;
     border: 1px solid #3079ed; }
+  #second button:hover {
+    margin-left: 734px;
+    height: 30px;
+    background-color: #4787ed;
+    color: white;
+    border: 1px solid #042b69; }
 
 /*# sourceMappingURL=advanced_search.css.map */
