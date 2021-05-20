@@ -1,1 +1,0 @@
-Wikipedia like online encyclopedia!

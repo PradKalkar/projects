@@ -1,0 +1,37 @@
+Note: This project is deployed on https://pradnesh-wiki.herokuapp.com/
+
+1. See the settings.py file clearly. The below things are differnet from provided default or are not there in default. There are to be added.
+ - Debug = False
+ - AllowedHosts
+ - Middleware - whotenoise
+ - static_root
+ - staticfiles_storage
+
+2. Deploying from terminal - commands in sequence are shown - 
+heroku login
+git init -- not required for this project since its already done
+git add .
+git commit -m "Commited"
+
+heroku create pradnesh-wiki
+heroku git:remote -a pradnesh-wiki
+
+pip install gunicorn -- its already installed in Django-learn venv
+gunicorn wiki.wsgi   -- for testing if our application is working
+
+pip install whitenoise -- its already installed in Django-learn venv -- used for serving static files
+
+touch Procfile  -- and write   web: gunicorn wiki.wsgi    in the file which creates a worker for running the website in production.
+pip freeze > requirements.txt   -- requirements are created which the remote sees for package installation
+
+git add .
+git commit -m "Commmite"
+
+git push heroku master
+
+3. These links may help if something fails - 
+https://devcenter.heroku.com/articles/django-assets#:~:text=Django%20does%20not%20support%20serving,WhiteNoise%20documentation%20for%20more%20details.&text=Be%20sure%20to%20add%20whitenoise%20to%20your%20requirements
+
+https://stackoverflow.com/questions/5836674/why-does-debug-false-setting-make-my-django-static-files-access-fail
+
+
