@@ -6,4 +6,4 @@
 5. We can also search for entries, if the search perfectly matches an entry, then we are directed to that entry's page otherwise we are presented with search results as per the search query. 
 
 ## Deployment - 
-The website is hosted on *https://pradnesh-wiki.herokuapp.com*
+The website is hosted on *http://pradnesh123.pythonanywhere.com/*
